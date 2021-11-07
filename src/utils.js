@@ -40,7 +40,7 @@ export const loadScript = function (id, config = {}) {
     id,
     ...(config.queryParams || {})
   })
-  script.src   = `https://www.googletagmanager.com/gtm.js?${queryString}`
+  script.src   = `https://${config.baseUrl}/gtm.js?${queryString}`
   doc.body.appendChild(script)
 }
 
@@ -51,5 +51,5 @@ export const loadScript = function (id, config = {}) {
 export const hasScript = function () {
   return Array
     .from(document.getElementsByTagName('script'))
-    .some(script => script.src.includes('googletagmanager.com/gtm.js'))
+    .some(script => script.src.includes(`${config.baseUrl}/gtm.js`))
 }

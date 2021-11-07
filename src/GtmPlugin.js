@@ -20,7 +20,8 @@ export default class AnalyticsPlugin {
     if (inBrowser && !!val && !hasScript() && pluginConfig.loadScript) {
       loadScript(this.id, {
         defer: pluginConfig.defer,
-        queryParams: pluginConfig.queryParams
+        queryParams: pluginConfig.queryParams,
+        baseUrl: pluginConfig.baseUrl
       })
     }
   }
