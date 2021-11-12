@@ -1,6 +1,6 @@
 {
   "name": "vue-gtm-custom",
-  "version": "2.3.4",
+  "version": "1.0.0",
   "description": "A fork of vue-gtm version 2.3.4 with the possibility of using a custom base URL.",
   "main": "./dist/vue-gtm.min.js",
   "typings": "types/index.d.ts",
