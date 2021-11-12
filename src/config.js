@@ -4,5 +4,6 @@ export default {
   trackOnNextTick: false,
   queryParams: {},
   loadScript: true,
-  defer: false
+  defer: false,
+  baseUrl: 'www.googletagmanager.com'
 }

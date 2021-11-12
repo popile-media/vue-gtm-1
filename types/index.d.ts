@@ -34,6 +34,12 @@ export interface VueGtmUseOptions {
    */
   defer?: boolean
   /**
+   * Changes the default endpoint url from googletagmanager.com to a custom domain (GTM Server-side).
+   *
+   * @default 'www.googletagmanager.com'
+   */
+  baseUrl?: string
+  /**
    * Plugin can be disabled by setting this to `false` for Ex: `enabled: !!GDPR_Cookie`
    *
    * @default true

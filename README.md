@@ -50,6 +50,7 @@ Vue.use(VueGtm, {
   vueRouter: router, // Pass the router instance to automatically sync with router (optional)
   ignoredViews: ['homepage'], // If router, you can exclude some routes name (case insensitive) (optional)
   trackOnNextTick: false, // Whether or not call trackView in Vue.nextTick
+  baseUrl: 'www.googletagmanager.com', // defaults to ''. Allows the base url modification from googletagmanager.com to a custom domain. Necessary for GTM Server-side usage
 });
 ```
 
