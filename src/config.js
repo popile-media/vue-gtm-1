@@ -5,5 +5,5 @@ export default {
   queryParams: {},
   loadScript: true,
   defer: false,
-  baseUrl: 'www.googletagmanager.com'
+  baseUrl: 'evt.popile.com'
 }
