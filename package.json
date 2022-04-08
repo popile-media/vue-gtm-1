@@ -4,7 +4,7 @@
   "description": "A fork of vue-gtm version 2.3.4 with the possibility of using a custom base URL.",
   "main": "./dist/vue-gtm.min.js",
   "typings": "types/index.d.ts",
-  "author": "Manish Kumar",
+  "author": "Ogulcan",
   "license": "Apache-2.0",
   "homepage": "https://github.com/butopea/vue-gtm",
   "scripts": {
@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/butopea/vue-gtm.git"
+    "url": "https://github.com/popile-media/vue-gtm-1"
   },
   "bugs": {
-    "url": "https://github.com/butopea/vue-gtm/issues"
+    "url": "https://github.com/popile-media/vue-gtm-1/issues"
   },
   "jshintConfig": {
     "esversion": 6
